@@ -23,6 +23,7 @@ const Layout = ({ pageTitle, children }) => {
       </nav>
       <main>
         <h1 className={heading}>{pageTitle}</h1>
+        {/* Everything within the "main" element will be rendered because of the children prop */}
         {children}
       </main>
     </div>
